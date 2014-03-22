@@ -43,7 +43,7 @@ If I avoided the mental mutilation at the hands of BASIC that Dijkstra so sternl
 
 Despite its serious academic parentage, Logo improved upon the immediacy and exploratory feel of early BASICs through a somewhat silly premise. Logo's "turtle graphics" provided a sort of graphical mode that presented a directional cursor, represented by a turtle sprite, that you could manipulate through simple commands as if it were a programmable robot. The turtle was equipped with a pen so that when you issued the command `FORWARD 50`, the turtle would crawl forward (in whatever direction it was facing) 50 pixels, drawing a line from its old position to the new.
 
-You could learn the commands to rotate the turtle by degrees, change the color of the turtle's pen, and cause the turtle to pick up its pen so that it could move about without drawing. With these primitives, and a little imagination and exploration, the turtle could draw simple shapes like triangles and rectangle. Using subroutines and recursion, you could easily build more complex figures from simpler shapes.
+You could learn the commands to rotate the turtle by degrees, change the color of the turtle's pen, and cause the turtle to pick up its pen so that it could move about without drawing. With these primitives, and a little imagination and exploration, the turtle could draw simple shapes like triangles and rectangles. Using subroutines and recursion, you could easily build more complex figures from simpler shapes.
 
 As a clunky cartridge that I could slot into my computer, there were few complications or risks associated with Logo. As with BASIC, if I messed everything up, resetting the computer got me back to a clean slate. Something lost but nothing broken.
 
