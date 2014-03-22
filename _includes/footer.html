@@ -2,6 +2,7 @@
   <footer>
     <aside class="wrap">
       <ol class="prev-posts">
+        {% if site.posts %}
         <p class="list-title">Recent Posts</p>
         {% for post in site.posts | limit:3 %} <!-- for1 -->
             <li>
@@ -9,6 +10,7 @@
               <span class="date">{{post.date | date: "%b %d, %Y" }}</span>
             </li>
         {% endfor %}
+        {% endif %}
       </ol>
 
       <div class="social">
@@ -18,7 +20,6 @@
             {% if site.owner.twitter %}
             <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>
             {% endif %}
-
 
             {% if site.owner.dribbble %}
             <li><a id="drib" href="http://dribbble.com/{{ site.owner.dribbble }}" target="_blank"><span class="foot-link">Dribbble</span></a></li>

@@ -1,0 +1,29 @@
+{% if page.image.feature %}
+
+{% include head.html %}
+
+<section class="article">
+    <div class="overlay"></div>
+    <div class="featured-image" style="background-image: url({{ site.url }}/images/{{ page.image.feature }})"></div>
+
+{% else %}
+
+{% include head-dark.html %}
+
+<section class="article pad-top">
+
+{% endif %}
+
+    <article class="wrap post">
+        <header class="resume-header">
+            <hgroup>
+                <h1>I build great software that people love.</h1>
+            </hgroup>
+        </header>
+
+        {{ content }}
+    </article>
+
+</section>
+
+{% include footer.html %}
