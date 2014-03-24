@@ -23,7 +23,7 @@ I am a software engineering generalist with over ten years experience as a lead 
 * Automated testing, continuous integration, continuous delivery
 * Experienced leader and mentor
 * Comfortable conducting client meetings and presenting at conferences
-* Strong written and verbal communicaton skills
+* Strong written and verbal communication skills
 * Plays well with others
 
 ## Philosophy
