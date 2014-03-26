@@ -94,3 +94,8 @@ Served as a teaching assistant in courses on data structures, algorithms, and hu
 ## Educational Background
 
 2004, BS in Computer Science from San Francisco State University (cum laude)
+
+## Selected Interviews and Conference Presentations
+
+* [Short Interview with Planet Cassandra](http://planetcassandra.org/blog/post/kwarter-brings-gamification-to-live-television-in-real-time-with-apache-cassandra/). March 2014.
+* Bettinger, Christopher; Roderick, Andrew; Keller, Alexander; and Koepke, Daniel. 2008. "Until Lions Have Their Own Historians." Proceedings from 38th World Congress of the International Institute of Sociology: Archives, Accountability, and Democracy in the Digital Age." Stockholm.
