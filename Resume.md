@@ -11,7 +11,7 @@ I am a software engineering generalist with over ten years experience as a lead 
 
 ## Skill Highlights
 
-* Primary languages: C, C++, JavaScript, Java, PHP, Python, Ruby
+* Primary languages: C, C++, Java, JavaScript, PHP, Python, Ruby
 * Web: Flask, Pyramid, Sinatra, Express (Node.js), jQuery, HTML, CSS
 * NoSQL: Cassandra, CouchBase, Dynamo, MongoDB, Redis
 * SQL: MySQL, Oracle, PostgreSQL, RDS, Redshift

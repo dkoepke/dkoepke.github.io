@@ -923,3 +923,25 @@ footer {
 
   small {
     font-size: 12px; } }
+@media print {
+  p, .post ul li {
+    font-size: 14px;
+    margin-bottom: 14px;
+    line-height: 1.5; }
+
+  .post h1 {
+    font-size: 24px; }
+  .post h2 {
+    font-size: 20px; }
+  .post h1, .post h2, .post h3, .post h4, .post h5 {
+    padding-top: 10px;
+    margin-bottom: 10px; }
+
+  nav ul, footer {
+    display: none; }
+
+  header.resume-header {
+    margin-top: 0; }
+
+  #professional-experience section {
+    page-break-inside: avoid; } }
