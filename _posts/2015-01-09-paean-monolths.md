@@ -12,13 +12,13 @@ Consider this criticism of non-service-oriented architecture in [Firat Atagun's 
 
 Distributed systems are more vulnerable to this critique. They have more layers of greater complexity. The network, the marshalling layer, and the service bus or queue are all potential performance bottlenecks that require specialized knowledge to tune. A common mistake is to not even consider the performance impact of durability and availability of the service bus on your application. Once your queue must confirm writes, your throughput craters.
 
-## The illusion of isolation
+### The illusion of isolation
 
 One of the touted benefits of SOA is isolation, but total isolation is illusory. Services are isolated only in the sense that the code and the container running it are isolated. But the running services are certainly not isolated from each other. Services depend on each other or, at least, on the message bus or the network or the cluster hosting the containers. This creates subtle dependencies that can be the source of many problems. When you don't think about services' side effects and how it can all go awry, you don't do the hard and interesting and necessary work of architecture.
 
 What happens if one of your services gets publish-happy? Will contention prevent other services from having their work handled? Fair queueing of reads is not a complete answer since a talkative service may consume the write capacity, delaying or preventing other services from publishing. *There are a million little edge cases that crop up as your architecture accrues moving pieces.*
 
-## The false appeal of simplicity
+### The false appeal of simplicity
 
 So many analyses of software architecture ultimately fail because they ignore too much of the complexity of distributed architectures to ever get to their real advantages. Architects tend to overstate the scalability, availability, and simplicity benefits of service-oriented architectures. *Service-oriented architectures perform worse, are less reliable, and are harder to scale than a comparably built monolithic application.*
 
