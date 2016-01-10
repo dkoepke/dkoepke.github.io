@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: "A Paean to the Monoliths"
-description: "There no guarantees conferred by your architecture that cannot be undone by your implementation."
+description: "There are no guarantees conferred by your architecture that cannot be undone by your implementation."
 category: articles
 tags: [distributed systems, architecture, service-oriented architecutre, SOA, micro-services, scalability, monolithic, software engineering]
 ---
