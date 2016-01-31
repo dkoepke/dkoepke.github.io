@@ -11,14 +11,15 @@ I am a software engineering generalist with over ten years experience as a hands
 
 ## Skill Highlights
 
-* Primary languages: C, C++, Java, JavaScript, Python, Ruby
-* Experience with many web frameworks and technologies
-* Extensive experience with both NoSQL and SQL data stores, caches, and queues
+* Primary languages: C, C++ (including C++11 and C++14), Java, JavaScript, Python
+* Web frameworks and technologies including Django, DropWizard, Flask, Node.js, React, SASS
+* NoSQL and SQL data stores, caches, and queues including Cassandra, Couchbase, Memcached, MonogDB, RabbitMQ, Redis
 * Configuration management with Ansible and Chef
-* Extensive experience with Amazon Web Services (AWS) including CloudFront, Dynamo, EC2, ELB, S3
+* Extensive experience with Amazon Web Services (AWS) including CloudFront, DynamoDB, EC2, ElastiCache, ELB, RDS, S3
 * Design and implementation of scalable, distributed, and highly availabile systems
 * Automated testing, continuous integration, continuous delivery
-* Experienced leader and mentor
+* Experienced leader, mentor, and manager
+* Extensive experience implementing agile methodologies (Scrum and Kanban) and devops practices, including right-sizing processes for teams and continuous improvement of processes
 * Comfortable conducting client meetings and presenting at conferences
 * Strong written and verbal communication skills
 * Plays well with others
@@ -30,30 +31,30 @@ I am a software engineering generalist with over ten years experience as a hands
 * Automated testing and continuous integration are essential
 * No box is sacred: all infrastructure must be fast and trivial to reproduce, all mission critical stateful services must have failovers
 * Be as lean as possible: process by the team, for the team
-* Only own what you must
+* Only own what you must, but never outsource the core business
 * Favor autonomous teams: avoid organizing by specialization, support cross-training, and align resources with business initiatives to faciltiate funding and create clear priorities
 
 ## Professional Experience
 
-**Lead Software Engineer at AppDynamics**<br>
+**Software Engineering Manager at AppDynamics**<br>
 April 2014 - Present
 
-Lead of the Python Agent, C++ SDK, and Web Server Agent teams. AppDynamics provides a single integrated platform that monitors all application infrastructure: end user, application, database, and infrastructure. The Python Agent had its GA release eight months ahead of schedule and converted all of its beta customers into paying customers within a month of its release.
+Lead and manager of the Python Agent, C++ SDK, and Web Server Agent teams. AppDynamics provides a single integrated platform that monitors all application infrastructure: end user, application, database, and infrastructure. The Python Agent had its GA release eight months ahead of schedule and converted all of its beta customers into paying customers within a month of its release.
 
-In July 2015, I was promoted to lead the C++ SDK and Web Server Agent teams.
+In July 2015, I was promoted to lead and manage the C++ SDK and Web Server Agent teams. In January 2016, I was promoted to manage the PHP Agent team.
 
-* Hire and manage teams for the [Python Agent](http://appdynamics.com/python), [C++ SDK](http://www.appdynamics.com/cpp/), and [Web Server Agent](http://www.appdynamics.com/apache-web-server/) teams
+* Hire and manage teams for the [C++ SDK](http://www.appdynamics.com/cpp/) and [PHP](http://appdynamics.com/php/), [Python](http://appdynamics.com/python), and [Web Server](http://www.appdynamics.com/apache-web-server/) agents
 * Develop in Python, Java, C, and C++
+* Understand the deep internals of PHP and Python languages, various web servers, and native code libraries
 * Set and manage product roadmaps with customers and internal stakeholders
-* Build initial Python Agent beta from scratch by myself in less than half the time comparable products had been built at AppDynamics
-* Release Python Agent GA eight months ahead of schedule
+* Build and release Python Agent GA eight months ahead of schedule
 * Convert all Python Agent beta customers to paying customers within one month of GA release
 * Improve processes for the C++ SDK and Web Server Agent teams
-* Advocate for and implement testing, build, and automation best practices throughout the company
 * Assist in design and implementation of various projects throughout AppDynamics
 * Improve release automation
 * Build and manage [AppDynamics Chef cookbooks for customers](https://github.com/appdynamics/appdynamics-cookbooks)
 * Conduct outreach (conferences and customer meetings)
+* Work with team members to establish career development plans, improve team velocity, and build better products
 
 **Lead Platform Engineer at Kwarter**<br>
 March 2013 - March 2014
@@ -99,6 +100,7 @@ BSS Computing at San Francisco State University was a small computing skunkworks
 
 * Develop and maintain software in PHP, Java, Python, and JavaScript
 * Lead team consisting of five staff
+* Founding engineer for the [DIVA](https://diva.sfsu.edu/) digital collections archive project
 * Assist in founding a development team with a startup-like culture
 * Hire and train engineering and graphic design staff
 * Perform graphic, logo, and web design
