@@ -13,7 +13,7 @@ I am a software engineering generalist with over ten years experience as a hands
 
 * Primary languages: C, C++ (including C++11 and C++14), Java, JavaScript, Python
 * Web frameworks and technologies including Django, DropWizard, Flask, Node.js, React, SASS
-* NoSQL and SQL data stores, caches, and queues including Cassandra, Couchbase, Memcached, MonogDB, RabbitMQ, Redis
+* NoSQL and SQL data stores, caches, and queues including Cassandra, Couchbase, Kafka, Memcached, MonogDB, RabbitMQ, Redis
 * Configuration management with Ansible and Chef
 * Extensive experience with Amazon Web Services (AWS) including CloudFront, DynamoDB, EC2, ElastiCache, ELB, RDS, S3
 * Design and implementation of scalable, distributed, and highly availabile systems
