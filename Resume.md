@@ -86,7 +86,7 @@ Academic Technology at San Francisco State University has the mission of using t
 * Migrate existing team to devops culture
 * Introduce and do training on Chef and Vagrant
 * Migrate existing team from Subversion to Git
-* Improve reliability of mission critical systems from 98% uptime to 99.9% uptime
+* Improve mission critical systems uptime from 98% to 99.9%
 * Build background video and audio transcoding and processing service using libavcodec, libavformat, and x264 service in C
 * Define strategy, collect requirements, manage budget, create and implement pricing models, and write MOUs for client deals
 * Coordinate work across the 23 campus system for several projects
@@ -107,8 +107,3 @@ Served as a teaching assistant in courses on data structures, algorithms, and hu
 ## Educational Background
 
 2004, BS in Computer Science from San Francisco State University (cum laude)
-
-## Selected Interviews and Conference Presentations
-
-* [Short Interview with Planet Cassandra](http://planetcassandra.org/blog/post/kwarter-brings-gamification-to-live-television-in-real-time-with-apache-cassandra/). March 2014.
-* Bettinger, Christopher; Roderick, Andrew; Keller, Alexander; and Koepke, Daniel. 2008. "Until Lions Have Their Own Historians." Proceedings from 38th World Congress of the International Institute of Sociology: Archives, Accountability, and Democracy in the Digital Age." Stockholm.
