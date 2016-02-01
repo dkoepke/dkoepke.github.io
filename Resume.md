@@ -81,31 +81,23 @@ Academic Technology at San Francisco State University has the mission of using t
 * Develop and maintain software in PHP, Java, Python, Ruby, JavaScript, and C
 * Lead team consisting of ten staff
 * Set technical direction and vision for the engineering team
-* Hire and train in dev, ops, graphic design, and QA roles
-* Design and implement processes for engineering
-* Migrate existing team to devops culture using Chef and Vagrant
+* Hire and train in devops, graphic design, and QA roles
+* Design and implement agile processes for engineering
+* Migrate existing team to devops culture
+* Introduce and do training on Chef and Vagrant
 * Migrate existing team from Subversion to Git
 * Improve reliability of mission critical systems from 98% uptime to 99.9% uptime
 * Build background video and audio transcoding and processing service using libavcodec, libavformat, and x264 service in C
-* Work closely with upper management to define strategy, collect requirements, manage budget, create and implement pricing models, author project requirements documents and memos of understanding
-* Serve as technical lead in multiple projects spanning the 23 campus system, each with dozens of members
-* Assist in the migration of campus services to Single Sign On via Shibboleth (or, as needed, LDAP)
+* Define strategy, collect requirements, manage budget, create and implement pricing models, and write MOUs for client deals
+* Coordinate work across the 23 campus system for several projects
+* Assist in the migration of campus services to SSO via Shibboleth
 * Chair campus technical committees
 * Present at conferences
 
-**Lead Developer at BSS Computing, San Francisco State University**<br>
+**Lead Full-stack Engineer at BSS Computing, San Francisco State University**<br>
 2003 - 2009
 
-BSS Computing at San Francisco State University was a small computing skunkworks unit. Originally founded to provide desktop and lab hardware support, I was brought in to add a software development function. Under my technical leadership, the unit researched and developed novel academic technology software and earned money for the university by taking on client work for other universities and research groups.
-
-* Develop and maintain software in PHP, Java, Python, and JavaScript
-* Lead team consisting of five staff
-* Founding engineer for the [DIVA](https://diva.sfsu.edu/) digital collections archive project
-* Assist in founding a development team with a startup-like culture
-* Hire and train engineering and graphic design staff
-* Perform graphic, logo, and web design
-* Conduct client meetings, requirements analysis
-* Present at conferences
+BSS Computing at San Francisco State University was a small computing skunkworks unit. Originally founded to provide desktop and lab hardware support, I was brought in to add a software development function. Under my technical leadership, the unit researched and developed novel academic technology software (e.g., [DIVA](https://diva.sfsu.edu/)) and earned money for the university by taking on client work for other universities and research groups. I also performed UI/UX design functions.
 
 **Computer Science Teaching Assistant at San Francisco State University**<br>
 2003 - 2004
