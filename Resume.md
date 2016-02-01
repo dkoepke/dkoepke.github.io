@@ -59,7 +59,7 @@ March 2013 - March 2014
 
 Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Team Lead in October 2013.
 
-* Develop web-based software in Python on Linux (Ubuntu) running on AWS using Pyramid, Chef, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
+* Environment: Develop web-based software in Python on Linux (Ubuntu) running on AWS using Pyramid, Chef, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
 * Design next generation Platform as a Service for realtime interactive content using Python on Flask, Ansible, and Dynamo
 * Scale platform from supporting ~12K concurrent users in May 2013 to millions of concurrent users and hundreds of thousands of RPS by October 2013
 * Design and implement multi-tenancy, saving approximately $10K/mo. per client in operations costs
@@ -71,26 +71,20 @@ Hired as one of four Platform Engineers building and maintaining a Platform as a
 * Design, document, and implement JavaScript/HTML5 SDK and demo application
 * Hire, organize, and provide leadership for senior engineering team
 
-**Lead Developer at Academic Technology, San Francisco State University**<br>
+**Lead Full-Stack Engineer at Academic Technology, San Francisco State University**<br>
 January 2009 - March 2013
 
-Academic Technology at San Francisco State University has the mission of using technology to improve teaching, learning, and service for faculty, staff, and students at SF State, the 23 campus California State University system, and other higher education institutions.
+Academic Technology at San Francisco State University has the mission of using technology to improve teaching, learning, and service for faculty, staff, and students at SF State, the 23 campus California State University system, and other higher education institutions. I was brought in to provide technical leadership for the existing Academic Technology team.
 
-* Develop and maintain software in PHP, Java, Python, Ruby, JavaScript, and C
+* Technologies: PHP, Java, Python, Ruby, JavaScript, C, MySQL, PostgreSQL, Linux, Chef, Vagrant, Git
 * Lead team consisting of ten staff
-* Set technical direction and vision for the engineering team
-* Hire and train in devops, graphic design, and QA roles
-* Design and implement agile processes for engineering
-* Migrate existing team to devops culture
-* Introduce and do training on Chef and Vagrant
-* Migrate existing team from Subversion to Git
+* Implement agile and devops processes
+* Update devops processes: SVN to Git, from manual setup to Chef, from shared dev environments to Vagrant
 * Improve mission critical systems uptime from 98% to 99.9%
-* Build background video and audio transcoding and processing service using libavcodec, libavformat, and x264 service in C
-* Define strategy, collect requirements, manage budget, create and implement pricing models, and write MOUs for client deals
-* Coordinate work across the 23 campus system for several projects
+* Manage engineering budget
+* Collect requirements, conduct price negotiations, and write MOUs for client work
+* Coordinate projects across the 23 campus system
 * Assist in the migration of campus services to SSO via Shibboleth
-* Chair campus technical committees
-* Present at conferences
 
 **Lead Full-stack Engineer at BSS Computing, San Francisco State University**<br>
 2003 - 2009
