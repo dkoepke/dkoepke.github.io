@@ -39,9 +39,7 @@ I am a software engineering generalist with over ten years experience as a hands
 **Software Engineering Manager at AppDynamics**<br>
 April 2014 - Present
 
-Lead and manager of the Python Agent, C++ SDK, and Web Server Agent teams. AppDynamics provides a single integrated platform that monitors all application infrastructure: end user, application, database, and infrastructure. The Python Agent had its GA release eight months ahead of schedule and converted all of its beta customers into paying customers within a month of its release.
-
-In July 2015, I was promoted to lead and manage the C++ SDK and Web Server Agent teams. In January 2016, I was promoted to manage the PHP Agent team.
+Lead and manager of the Python Agent, C++ SDK, and Web Server Agent teams. Started as Technical Lead for Python Agent, focused on creating a new Python agent product and building out the team. In July 2015, I was promoted to lead and manager of the C++ SDK and Web Server Agent teams. In January 2016, I was promoted to manager of the PHP Agent team.
 
 * Hire and manage teams for the [C++ SDK](http://www.appdynamics.com/cpp/) and [PHP](http://appdynamics.com/php/), [Python](http://appdynamics.com/python), and [Web Server](http://www.appdynamics.com/apache-web-server/) agents
 * Develop in Python, Java, C, and C++
