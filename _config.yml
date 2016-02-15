@@ -22,6 +22,9 @@ links:
   - title: LinkedIn
     url: http://www.linkedin.com/pub/daniel-koepke/19/217/a7a
     external: true
+  - title: TIL
+    url: https://github.com/dkoepke/til
+    external: true
   - title: Github
     url: https://github.com/dkoepke
     external: true
