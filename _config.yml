@@ -2,7 +2,7 @@ title:            Daniel A. Koepke
 tagline:          I build great software that people love.
 description:      Daniel A. Koepke is a software engineer with over 10 years experience building software.
 #Comment out url when working locally to resolve base urls correctly
-url: http://dkoepke.github.io
+#url: http://dkoepke.github.io
 
 # Owner/author information
 owner:
@@ -23,15 +23,18 @@ links:
     url: http://www.linkedin.com/pub/daniel-koepke/19/217/a7a
     external: true
   - title: TIL
-    url: https://github.com/dkoepke/til
-    external: true
+    url: /til
   - title: Github
     url: https://github.com/dkoepke
     external: true
 
+collections:
+  til:
+    output: true
+    permalink: /til/:path/
+
 timezone:    America/Los_Angeles
 future:      true
-pygments:    true
 markdown:    kramdown
 
 kramdown:
@@ -39,17 +42,8 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "vendor"]
