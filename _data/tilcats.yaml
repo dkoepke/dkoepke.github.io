@@ -4,3 +4,9 @@
 - id: gradle
   name: Gradle
   description: The Gradle build system
+- id: testing
+  name: Testing
+  description: Unit, integration, and functional testing
+- id: etc
+  name: Tools, etc.
+  description: Assorted other stuff
