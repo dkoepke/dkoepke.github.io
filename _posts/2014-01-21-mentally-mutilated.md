@@ -1,5 +1,4 @@
 ---
-layout: post-no-feature
 title: "Mentally Mutilated"
 description: "I have been mentally mutilated beyond all hope of regeneration."
 category: articles

@@ -335,6 +335,45 @@ header.site-header nav {
 
 // Archive Page
 
+.tilcat {
+    header.post-header {
+        hgroup h1 {
+            font-style: italic;
+        }
+    }
+
+    article {
+        @include column(7);
+        @include push(2);
+        display: block;
+        float: none;
+        font-size: ($lh * 2/3);
+
+        header {
+            h4 {
+                font-size: ($lh * 2/3);
+                margin-bottom: ($lh * 1/2);
+            }
+            p {
+                font-size: ($lh * 1/2);
+                margin-bottom: 0;
+                color: $grey-medium;
+            }
+            margin-bottom: ($lh * 2/3);
+        }
+
+        ul {
+            li {
+                line-height: $lh;
+                .date {
+                    font-size: ($lh * 1/2);
+                    color: $grey-light;
+                }
+            }
+        }
+    }
+}
+
 .archive {
     @include column(10);
     display: block;

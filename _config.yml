@@ -31,13 +31,26 @@ links:
 collections:
   til:
     output: true
-    permalink: /til/:path/
+    permalink: /til/:path
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post-no-feature"
+  - scope:
+      path: ""
+      type: "til"
+    values:
+      layout: "post-no-feature"
 
 timezone:    America/Los_Angeles
 future:      true
 markdown:    kramdown
 
 kramdown:
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char

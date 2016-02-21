@@ -1,22 +1,35 @@
 {% include head-dark.html %}
 
-    <section class="article archive">
-      <article class="archive-wrap">
-          <ol class="post-list">
-            <lh>
-              <h2><span class="bb">{{ page.title }}</span></h2>
-              {{ content }}
-            </lh>
-            {% for post in site.til %}
-              <li>
-                <div class="deets" itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                    <h4><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h4>
-                    <p class="summary">{{ post.category }}</p>
-                </div>
-              </li>
-            {% endfor %}
-          </ol>
-      </article>
-    </section>
+<section class="article archive-wrap">
+    <article class="archive tilcat">
+        <header class="post-header">
+            <hgroup>
+                <h1>{{ page.title }}</h1>
+                <p class="intro">{{ content }}</p>
+            </hgroup>
+        </header>
+
+        {% for cat in site.data.tilcats %}
+            <article id="tilcat-{{ cat.id }}">
+                <header>
+                    <h4>{{ cat.name }}</h4>
+                    <p>{{ cat.description }}</p>
+                </header>
+
+                <ul>
+                    {% for post in site.til %}
+                        {% unless post.category == cat.id %}{% continue %}{% endunless %}
+                        <li>
+                            <div itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                                <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </article>
+        {% endfor %}
+    </article>
+</section>
 
 {% include footer.html %}

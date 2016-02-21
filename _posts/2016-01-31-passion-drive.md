@@ -1,5 +1,4 @@
 ---
-layout: post-no-feature
 title: "Passion / Drive"
 description: "The Anchor on the Rocket Ship"
 category: articles

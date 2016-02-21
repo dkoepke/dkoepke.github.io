@@ -1,5 +1,4 @@
 ---
-layout: post-no-feature
 title: "A Paean to the Monoliths"
 description: "There are no guarantees conferred by your architecture that cannot be undone by your implementation."
 category: articles

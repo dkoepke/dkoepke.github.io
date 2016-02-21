@@ -1,5 +1,4 @@
 ---
-layout: post-no-feature
 title: "Origins of a Programmer"
 description: "The best toy I ever had."
 category: articles
