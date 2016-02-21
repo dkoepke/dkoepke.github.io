@@ -1,6 +1,6 @@
 - id: jekyll
-  name: Jekyll
-  description: Jekyll and GitHub Pages
+  name: Jekyll &amp; GitHub Pages
+  description: The static site generator behind this blog
 - id: gradle
   name: Gradle
   description: The Gradle build system
@@ -9,4 +9,4 @@
   description: Unit, integration, and functional testing
 - id: etc
   name: Tools, etc.
-  description: Assorted other stuff
+  description: Assorted tools and techniques

@@ -2,6 +2,7 @@
 title: "Collections in Jekyll / GitHub Pages"
 tags: [jekyll, github pages, collections]
 category: jekyll
+date: 2016-02-18
 ---
 
 Collections are a new, experimental feature in Jekyll. I'm using them to create a Today I Learned section of my personal GitHub Pages site. To do it, I've put this in my `_config.yml`:

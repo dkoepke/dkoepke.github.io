@@ -2,6 +2,7 @@
 title: "Prebuilt Native Libraries"
 tags: [gradle, native, build, prebuilt libraries]
 category: gradle
+date: 2016-02-18
 ---
 
 You can specify a prebuilt library:
