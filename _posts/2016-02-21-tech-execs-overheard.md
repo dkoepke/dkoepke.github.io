@@ -11,7 +11,7 @@ Wednesday was a night where I wanted my scotch, and not my industry, to fill my 
 
 ### The Three Wizened Men
 
-I had picked my seat as much because it was one of the few available as because I hadn't picked the three natty patriachs adjacent for tech workers. But not long after sitting down, I found myself staring fixedly into the amber-mahogony of my scotch, realizing once again the simple allure of stereotypes was false. These three were all senior management and executives for different tech companies.
+I had picked my seat as much because it was one of the few available as because I hadn't picked for tech workers the three natty patriachs adjacent. But not long after sitting down, I found myself staring fixedly into the amber-mahogony of my scotch, realizing once again the simple allure of stereotypes was false. These three were all senior management and executives for different tech companies.
 
 It is a rule, almost as fixed by nature as thermodynamics, that frustrations with software companies will be largely about engineering. If you happen to work for a company where engineering is the least concern, it is probably that you do not work for a software company at all. Perhaps your business is truly defined by sales. But these men worked for--even, in some real way, ran--software companies, and so they were frustrated by engineering.
 
