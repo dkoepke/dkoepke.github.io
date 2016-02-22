@@ -1,0 +1,72 @@
+---
+title: "Tech Execs Overheard"
+description: "Bad ideas, continuously delivered"
+category: articles
+tags: [management, executives, tech, software, engineering, continuous delivery, continuous release]
+---
+
+It is a blessing and a curse to be an engineer in San Francisco. Technology permeates the very air. I imagine it must be what it is like to be an actor in Hollywood or a model in New York or Paris. An energy infuses the space. Opportunities no longer feel serendipitous. They abound. But then there are those moments where you want to tune it all out; where you seek an escape from the interminable, electric buzz of funding rounds, algorithms, architectures, shortening runways, and impending IPOs. Such sanctuary is hard to find.
+
+Wednesday was a night where I wanted my scotch, and not my industry, to fill my head. I had worked a late and fruitless night, struggling to clean up a build glommed together with shell scripts, Ant XML, and a thin smear of groovy Gradle icing. My biggest success had been to understand that I didn't understand what the hell I was doing. Deciding that the rumination of a night's sleep would better serve my cause, I packed up and sought liquid relaxation at the nearest watering hole.
+
+### The Three Wizened Men
+
+I had picked my seat as much because it was one of the few available as because I hadn't picked the three natty patriachs adjacent for tech workers. But not long after sitting down, I found myself staring fixedly into the amber-mahogony of my scotch, realizing once again the simple allure of stereotypes was false. These three were all senior management and executives for different tech companies.
+
+It is a rule, almost as fixed by nature as thermodynamics, that frustrations with software companies will be largely about engineering. If you happen to work for a company where engineering is the least concern, it is probably that you do not work for a software company at all. Perhaps your business is truly defined by sales. But these men worked for--even, in some real way, ran--software companies, and so they were frustrated by engineering.
+
+And that's fair enough. Engineers, too, hate most of engineering. They hate other people's code. There's never enough time to do everything they want to. The coding standard puts braces in the wrong place and wraps long lines at the wrong column. They are annoyed by their own code which was warped by the platform they work on, and every platform is bug-riddled and aggravating and doesn't work the way it should. Swear words pepper codebases. I once searched a large and convoluted codebase for curses. Finding shockingly few, I sardonically worried that my coworkers were so dangerously stupid they weren't even angry. Engineers often pride themselves for their astute skepticism, but it's possible many of us are nothing but run-of-the-mill pessimists.
+
+### Failing the Normal Way
+
+There's a difference between listening and hearing. You hear things that you aren't listening to: the white noise of the city, the hum of the street lights, the clank and clamor of a bar. In a crowded room, you hear a lot but listen to very little. So it was that I overheard these gentlemen were highly placed at decent startups, and they had bones to pick with their engineers, but what I first and truly listened to was when one of them began:
+
+<blockquote class="subdued unitalicized"><p>&ldquo;The engineers keep pushing to do continuous delivery. I'm blocking it. They haven't shown they can do <em>normal</em> releases. Why should I believe they can do continuous delivery?&rdquo;</p><footer><cite>&mdash; Anonymous startup executive</cite></footer></blockquote>
+
+I nearly choked. I nearly ate my glass. A normal release, he explained, involved careful planning. Priorities were decided upon. Milestones and deadlines set. Careful consideration was put into estimating when things could be done. But the engineers were failing at it. Releases were late. Features would get dropped just to get something out the door. Quality wasn't where it needed to be and getting worse. New opportunities weren't being capitalized because the backlog was growing out of control. And these idiots wanted to **speed up releases**?
+
+Yes, and as well they should. It is hard to buy a ticket for a show two months in advance and attend the show. Half the time, you end up selling it because something unexpected came up that prevents you from going. Sometimes you don't even regret it; something better came along, and you don't want to go to that show anymore. And attending a show is a damn sight easier than releasing software.
+
+A "normal" release is big and risky. It assumes that the team can do a long list of things in a certain period of time, that you can successfully account for the overhead of unplanned work and escalations, and that you won't change your mind along the way. The thing is, while you can re-sell a prematurely purchased ticket, missing "normal" releases has severe consequences.
+
+Many senior managers will be inclined to object here and explain that it's actually okay (not good, but "okay") to miss release dates. If the release can't happen with the features and quality necessary, we should accept it and push back the date. But this is fundamentally untrue. Release planning factors into revenue recognition, funding considerations, and marketing plans. It factors into our perception of how effective and responsive engineering is. If "normal" releases cannot be reliably done by most engineering organizations, then we cannot afford the "normal" release process.
+
+### Breaking Down
+
+I said before that engineers are pessimists, but there is one thing that engineers are faithfully optimistic about, and it is our ability to succeed at crunch time. Engineers will work physically and emotionally destructive hours in an effort to achieve the impossible. Sometimes, we'll even deliver the impossible, but the next deadline becomes that much harder, until the impossible truly is impossible. But engineers will believe right up until **after** they have failed that they will succeed.
+
+I have seen engineers burn out and crumble. I hit my own nadir about a decade ago. I had spent sixteen hour days for two weeks to put the finishing touches on a big release. I worked from home to minimize frivolous distractions like eating, sleeping, human contact, and fresh air. And when I finally had to admit that I wasn't making the progress I needed to get on track, I broke down and, I swear to you, I literally dropped to my knees and cried alone in the still dark of my apartment, illuminated only by the worthless iridescent symbols dotting the charcoal canvas of my text editor.
+
+<blockquote class="subdued"><p>The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time.</p><footer><cite>&mdash; Tim Cargill</cite></footer></blockquote>
+
+The ability to do "normal" releases consistently well is abnormal. The industry has, to this point, thrived simply because nobody was doing better, and we didn't know any better. We thought every release was our baby. Birthing it was naturally painful and ruined our sleep for months to come.
+
+That we cannot do these releases well is exactly the reason to push for Continuous Delivery. We want smaller, lower risk releases. We want to get things out the door as soon as they are done. We want to automate redundant steps so that they run immediately and frequently, instead of only when humans are able and in the time it takes humans to run them. We want to be able to react to changing market conditions and our understanding of our customers, so that when a new feature is released that generates interest, we can invest more in it than in other ideas that might steal more heat than they generate.
+
+But make no mistake. Continuous Delivery is not the death of planning. It is not the fantasy where revenue recognition is never a concern. And Continuous Delivery is not something you one day just choose to do then suddenly reap the benefits. It requires optimizing your business processes. It requires a keen understanding of what is truly most important. It requires investing in automation. It requires good management because it relies upon that which micro-managers cannot have: vision, mentorship, and faith in your team. But these are worthwhile because in the digital transformation, businesses must tie their business processes to effective engineering, not the other way around.
+
+### Un-solving Un-problems
+
+I took a sip of my scotch as the men commiserated about how frustrating it was for engineers to want to do something new when they couldn't do it the time-honored way. I contemplated washing down my unspoken reaction and my bile by shooting the rest of my scotch. I could either throw it back or throw it at them.
+
+Fortunately, wasting good whisky is not something one does, and the conch was passed from the first speaker to the next. I leaned back, wondering if I could hold my tongue, or better if I could somehow un-hear the just-ended discussion. And I asked myself if I had the discipline to tune out the rest of the conversation.
+
+"At least you have something you can block," the second man answered my silent question. "I'm having an even worse problem with our R&D." And then he went on to explain his predicament: their releases were poor quality; progress on critical issues was rare and glacial; his time was spent smoothing over relations with angry customers.
+
+My cold engineer's heart melted a bit hearing this. Blocking the solution to the very problem you have is a monumental mistake, but this other fellow I could sympathize with. One of my deepest dreads is losing grasp on quality and technical debt; to leave the team no time and no energy for root causes and fundamental improvements because they are always fighting fires. Although I've never reached those depths, I have seen other teams get to the point at which the mass of escalations amounts to an event horizon: no good code shall escape forever more. This is the point at which my trusty metaphors of overcoming inertia and sustaining momentum break down like our understanding of physics at the singularity. The best way I know to get out of that situation is to never get into it to begin with.
+
+My ears perked up when the speaker revealed that he had a way to stop his team's death march. Pessimist or not, my fears begged me to hope against hope that the next words out of his mouth would reveal a way out of the descent. I needed this tool in case of emergency. So it was with bated breath that I listened. The solution, he said, was an email.
+
+This is a long post. I'll spare you all of the gory details of the draft email he read aloud to his friends. It was, at best, academic, and if I had to write its abstract, I'd have written, "In this email, we tautologically define what critical bugs are and explain why it's critical to fix them." The draft echoed a theme I've picked up in sales and support meetings with engineering: they think the problem is that engineering doesn't think things are important, so they think the solution is to explain that things actually are important. Would that it were so simple.
+
+### It's... Complicated
+
+A real problem in many organizations is that engineers don't know **what is most important**, but this is a very different problem from engineers not understanding that things, in general, are important. The crucial difference is that the former acknowledges there is only a limited number of things that can be done in a given time by a given number of people with a specific set of talents. Yes, yes, everything is important. We are a start-up. But what should I be doing **now**? It is a managerial cop-out to argue that Feature X and Feature Y are equally important. If you're saying that these features are priority 1A and priority 1B, you're just not doing your job.
+
+Imagine that only one of these needed features will ship. So you have a rleease with only Feature X, or you have a release with only Feature Y. Even if both these fictional releases are hopelessly incomplete, even if not shipping with both features is unconscionable, even if not shipping Feature X makes the product suck and not shipping Feature Y gets you in legal trouble over some ill-advised side agreement, you can say with certainty that one outcome is more manageable than the other. You don't establish success as a pattern by ignoring contigencies and hoping for the best outcome.
+
+Emails like the one I overheard aren't part of the solution. If they have any effect, they are deleterious. Engineers don't need to be told that fixing critical bugs is important, they need a prioritized list of work with the impact of that work clearly quantified. They need ties broken. You hired these engineers because they had talent and passion, and the wonderful thing about San Francisco is that there is so much talent and so much passion here. So if they seem lazy or unproductive, you need to question what you're doing to suppress the irrepressable talent and drive that suffuses San Francisco. Are your engineers constantly context switching because they get pulled ten different ways by ten different "highest priority" items? Did they burn themselves out trying to meet an impossible deadline? Or by meeting several bad deadlines in a row?
+
+But what are the solutions? Incidentally, a lot of the work you need to do in establishing clear priorities is the work management needs to do to successfully enable Continuous Delivery. And Continuous Delivery enables a faster flow from diagnosis to fix, tamping out potential fires while they're still embers. Since each release is smaller, and you've invested in automated testing to permit automated releases, there are fewer critical bugs. And since the time from feature completion to release is minimal, the time between when a bug is introduced and when it is reported is also minimized, meaning that engineers are still fresh on the design decisions and code paths involved, saving valuable time that would otherwise be spent on archeological digs through the codebase.
+
+I took one last draw of my scotch, slid $30 across the bar, slipped my jacket on, and headed out into what San Francisco naively calls the cold. My head buzzed with whisky and the energy of startups, engineering, challenges, solutions, and opportunities. At least I'd forgotten Gradle for a few minutes.

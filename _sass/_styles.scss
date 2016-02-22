@@ -56,8 +56,38 @@ blockquote, blockquote p {
     text-align: center;
     color: lighten($black, .2);
     margin-bottom: $lh;
+
+    em {
+        font-style: normal;
+        background: $white;
+    }
+
+    footer {
+        margin-top: -$lh;
+        cite {
+            font-size: $fs4;
+            font-style: normal;
+        }
+    }
 }
 
+blockquote.unitalicized, blockquote.unitalicized p {
+    font-style: normal;
+
+    em {
+        font-style: italic;
+    }
+
+    footer {
+        cite {
+            font-style: italic;
+        }
+    }
+}
+
+blockquote.subdued, blockquote.subdued p {
+    font-size: $fs3;
+}
 
 /*   Code Formatting    */
 
@@ -564,7 +594,7 @@ header.site-header nav {
     height: $footerHeight/4 !important;
 }
 
-footer {
+footer#page-footer {
     width: 100%;
     background: $black;
     height: $footerHeight;
@@ -674,6 +704,10 @@ h1 {
 
 blockquote, blockquote p {
     font-size: $fs3;
+}
+
+blockquote.subdued, blockquote.subdued p {
+    font-size: $fs4;
 }
 
 footer {
