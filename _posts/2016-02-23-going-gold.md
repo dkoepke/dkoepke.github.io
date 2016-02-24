@@ -15,7 +15,7 @@ Taking a product to GA takes a lot of work, but it doesn't have to be messy and 
 
 Regardless of the current state of the product, whether it's greenfield or almost there or off-track, you will face three main challenges.
 
-*How do we define what goes into GA?* We are working on this product because we believe it has potential, and we (hopefully) have prospective customers in mind that have ideas about what this product should do and how it should do it. We want do to everything. The product could do everything. Customers want everything. But we can't do everything. When I started out the Python agent, there was a lot of talk about the need to support ancient and new versions of Python, async, ten different frameworks, CLI and web and batch jobs, etc. It's great to hear all of the myriad things your product could do that would be valuable, but it can be overwhelming and leave you with no clear picture of what you really need to do.
+*How do we define what goes into GA?* We are working on this product because we believe it has potential, and we (hopefully) have prospective customers in mind that have ideas about what this product should do and how it should do it. We see all of the product's potential, and all the cool stuff we want it to do. We hear customers and everything they want and need. But we can't do it all. When I started [the Python agent for AppDynamics](https://www.appdynamics.com/python), there was a lot of talk about the need to support ancient and new versions of Python, async, ten different frameworks, CLI and web and batch jobs, etc. It's great to hear all of the myriad things your product could do that would be valuable, but it can be overwhelming and leave you with no clear picture of what you really need to do.
 
 Still, there's a lot to do, so *how do we go fast but keep quality high?* It's much harder to pave the road for success when you're already driving full speed on it, so you need to consider resourcing and quality an essential part of the product requiring as much time, thought, and energy as the features.
 
@@ -35,11 +35,13 @@ People cheat on **viable** by pushing out the hard work. If part of your core va
 
 People cheat on **product** by simply ignoring its existence and implications. You aren't building a codebase, framework, library, service, project, database, or application. You aren't writing code. You are building a product. That means you need to consider the entire experience you're building, from why someone would want it, to how they will install it, to how they will use it, and what happens when it goes wrong. The code is only one piece of the picture. Engineers don't just get to think about the algorithms. We need to listen to, support, and augment the product people, so that we are perfectly aligned with the product vision.
 
-So let's say you aren't going to cheat on the MVP. What now?
+<blockquote><p>I would have written a shorter letter, but I did not have the time.</p><footer><cite>&mdash; Blaise Pascal</cite></footer></blockquote>
+
+The combination of these attributes leads to an important lesson. You aren't building the MVP because it's less work or because you can get to market faster. It may not be the easiest thing you could build, but you're building it because it's the fastest way to get something worth doing.
 
 ### Leverage Existing Work
 
-The best feature is the feature you get for free. When building [the Python agent for AppDynamics](https://www.appdynamics.com/python), I was careful to consider the fact that our existing Application Performance Monitoring platform gave me some features for free. Just by connecting to the platform, Python tiers would show up in the flow map, and the nodes would appear in the inventory of machines.
+The best feature is the feature you get for free. When building new products at AppDynamics, I am careful to consider that our existing Application Performance Monitoring platform gives me some features for free. Just by connecting to the platform, Python tiers would show up in the flow map, and the nodes would appear in the inventory of machines.
 
 That's a small thing that involved the bare minimum of work for the agent--the agent didn't even do much of anything except start up. But I've seen first hand how important this feature is. I've worked in and with enterprises that had no visibility into their own infrastructure. Many years ago, I worked at a large enterprise with my friend Alex, who these days works at Stanford, and I will never forget the flyer he Photoshopped up because there was a problematic server in the data center that nobody could actually find. I've also seen enterprises where critical services were discovered to actually be hosted off someone's desktop. Knowing all this, I wasn't afraid to treat the platform features I got "for free" as a key part of the product I was launching. Cheap wins often pay for themselves.
 
