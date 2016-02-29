@@ -9,7 +9,7 @@ Perhaps because they are so poorly understood, there is quite a lot of hype abou
 
 Consider this criticism of non-service-oriented architecture in [Firat Atagun's Analysis of Software Architectures](http://www.firatatagun.com/blog/2016/01/09/analysis-of-software-architectures/), "While layered applications can perform well, since requests [have] to go through multiple layers, [they] might have performance problems."
 
-Yet no mention is madee that distributed systems are more vulnerable to this critique. Service-oriented architectures have more layers of greater complexity. The network, the marshalling layer, and the service bus (or queue) are all potential performance bottlenecks that require specialized knowledge to tune.
+Yet no mention is made that distributed systems are more vulnerable to this critique. Service-oriented architectures have more layers of greater complexity. The network, the marshalling layer, and the service bus (or queue) are all potential performance bottlenecks that require specialized knowledge to tune.
 
 A common mistake is to not even consider the performance impact of durability and availability of the service bus on your application. Once your queue must confirm writes, your throughput can crater, spreading a wildfire of failure through your system. The issue of what to do when components become unavailable or unhealthy is a huge concern when doing service-oriented architectures right. In a monolithic architecture, the application as a whole is available or not. In SOA, services can come and go. If you think the answer is that the components are independent, so you don't have to think about it, you're in for unpleasant surprises.
 
