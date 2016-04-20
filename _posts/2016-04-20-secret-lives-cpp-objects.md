@@ -158,6 +158,7 @@ public:
     }
 
     // ...
+
 private:
     std::shared_ptr<CPU> m_cpu;
     // ...
