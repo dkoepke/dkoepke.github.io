@@ -202,7 +202,6 @@ public:
 private:
     Memory* m_dma;
 };
-```
 
 class Emulator
 {
