@@ -12,7 +12,7 @@ This adage could be the motto for C++. Here you have a language that lets you do
 
 Consider the following classical C++ code:
 
-```c++
+```cpp
 class Emulator
 {
 public:
@@ -47,7 +47,7 @@ private:
 
 At one point in time, this is uncontroversial and just obviously how you do things. Today, it immediately fails code review as soon as the word `new` shows up. The prohibition here is not really against that particular keyword but against the fact that we have procedurally implemented a contract that we can declaratively enforce:
 
-```c++
+```cpp
 class Emulator
 {
 public:
@@ -81,7 +81,7 @@ In modern C++, we write the contract more explicitly. In both versions, the emul
 
 Here's a nasty surprise: opting into smart pointers does not relieve you of your responsibility to understand your objects' lifetimes. Objects need to be passed to each other, and the question often becomes, when we're using a smart pointer, how do we pass them around? What do we do with this classical C++ code?
 
-```c++
+```cpp
 class CPU
 {
 public:
@@ -93,7 +93,7 @@ private:
 
 To get to the somewhat surprising answer, let's consider our options. The first option that we can readily eliminate is to make this also a `std::unique_ptr<T>`:
 
-```c++
+```cpp
 class CPU
 {
 public:
@@ -105,7 +105,7 @@ private:
 
 The problem here is that we then need to transfer ownership of the memory from the emulator to the CPU:
 
-```c++
+```cpp
 Emulator()
 : m_cpu(std::make_unique<CPU>())
 , m_fpu(std::make_unique<FPU>())
@@ -120,7 +120,7 @@ Emulator()
 
 When we move the unqiue pointer, we lose our own reference. That is the whole point of the unique pointer: that there is exactly one owner of the object. Faced with this, you might reach for the other smart pointer that C++11 gives you, the `std::shared_ptr<T>`:
 
-```c++
+```cpp
 class Emulator
 {
 public:
@@ -147,7 +147,7 @@ private:
 
 I often find myself wishing that shared pointers didn't exist. They were added to the language because objects can sometimes have complex lifetimes that are not statically knowable. They are a niche tool, but now they litter many modern C++ codebases because, by using them, it seems like you can ignore your responsibility to understand your objects' lifetimes. The shared pointer has it handled for you. The objects will all be cleaned up when their references go out of scope. Except that, aside from the semantics here being completely wrong, and you possibly incurring atomic reference count operations for no reason at all, it's a dangerous lie:
 
-```c++
+```cpp
 class Memory
 {
 public:
@@ -191,7 +191,7 @@ What then do we do to pass around our references? All we have arrived at is that
 
 The `std::unique_ptr<T>` remains the right choice to express that contract. The solution to our impasse is simply to rely on the fact that the CPU isn't an owner of the Memory: it has access to it, but it has nothing to say about the lifetime of that object. The only part of the contract that is not expressed within the implementation of the CPU class--that the Memory exists as long as the CPU exists--is enforced by the emulator itself because it is an owner. Therefore, our correct solution for our existing design is just this:
 
-```c++
+```cpp
 class CPU
 {
 public:
@@ -233,7 +233,7 @@ But there are still some real problems we have in our code. It's not that we hav
 
 So let's fix this. In one of our iterations, we played with the idea of giving the Memory a reference to the CPU. This might be needed to deliver an interrupt:
 
-```c++
+```cpp
 void Memory::page_fault()
 {
     // ...
@@ -255,7 +255,7 @@ void Emulator::run()
 
 There are perhaps only a handful of methods of `Memory` that need the `CPU`. It is best to just pass them as needed. Since these methods assume that the CPU exists (is not null, is valid), we also use a non-nullable reference instead of a pointer:
 
-```c++
+```cpp
 void Memory::page_fault(CPU& cpu)
 {
     cpu.raiseInterrupt(IRQ::PAGE_FAULT);
