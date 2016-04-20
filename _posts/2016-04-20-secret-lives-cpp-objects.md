@@ -86,6 +86,7 @@ class CPU
 {
 public:
     // ...
+
 private:
     Memory* m_dma;
 };
@@ -98,6 +99,7 @@ class CPU
 {
 public:
     // ...
+
 private:
     std::unique_ptr<Memory> m_dma;
 };
