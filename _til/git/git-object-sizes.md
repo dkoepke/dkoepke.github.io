@@ -20,7 +20,7 @@ git rev-list --all --objects > object-hashes.txt
 Then it's just a simple matter of grepping `object-hashes.txt`. These files can be quite large and take a while to produce, so it can be good to just cache them while you're investigating the repository size. Here's a simple script to get the top 20:
 
 ```bash
-IFS=$'\n'
+IFS=$(echo -ne "\n\b")
 
 if [ ! -f object-sizes.txt ]; then
     git verify-pack -v .git/objects/pack/pack-*.idx | grep blob | sort -k4nr > object-sizes.txt

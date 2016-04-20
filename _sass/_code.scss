@@ -1,5 +1,5 @@
 pre.highlight code {
-  .k, .kt {
+  .k, .kt, .nv {
     color: #a56662;
   }
 
@@ -20,7 +20,7 @@ pre.highlight code {
     font-style: italic;
   }
 
-  .mi, .ms {
+  .mi, .se {
     color: #a2798f;
   }
 }
