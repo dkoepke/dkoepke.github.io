@@ -1,3 +1,6 @@
+- id: git
+  name: Git
+  description: Git, GitHub, and related
 - id: jekyll
   name: Jekyll &amp; GitHub Pages
   description: The static site generator behind this blog
