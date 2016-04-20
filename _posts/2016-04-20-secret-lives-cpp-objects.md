@@ -183,7 +183,7 @@ You have now very concisely implemented a memory leak. The CPU has two owners: t
 
 The advice I give around `std::shared_ptr<T>` is that it's the surest sign you need to think *more* about what you're doing. You have more responsibility with shared pointers to understand what's going on, not less. In many cases, the existence of shared ownership is a good indication that your design can be improved. The moment you reach for a `std::weak_ptr<T>` to avoid cycles is the moment you should really stop to contemplate what you're doing with your life and the lives of your objects. It's not that these tools are never needed; it's that they're far more rarely the right choice than common practice makes it seem.
 
-### Getting unstuck
+### Pointing the right way
 
 What then do we do to pass around our references? All we have arrived at is that our code can perhaps work with shared pointers if we follow the edict to better understand our lifetimes and avoid circular references. But what's odd here is that we do understand our lifetime. We were able to succinctly state it earlier:
 
@@ -224,13 +224,17 @@ private:
 };
 ```
 
+That is, the classical C++ remains the right way to do what we want with the `CPU` class. The `CPU` has its lifetime externally managed, and it does not manage the lifetime of the `Memory` it is given.
+
+We might feel queasy about handing out raw pointers like this, but it is actually more correct to do so than the abuse of smart pointers we'd earlier contemplated. We simply need to adjust our expectations about what raw pointers mean. In classical C++, a raw pointer communicated that you may or may not have to worry about ownership and lifetime. In modern C++, a raw pointer communicates that wherever you got the reference from has specified (or, transitively, inherited) a lifetime policy. The raw pointer concisely communicates the idea that the guarantees are written elsewhere: they are the caller's responsibility. Your class needs to be aware of how that policy's enforcement might impact your implementation, but it does not need to do any enforcement on its own. Somewhat sensibly, the raw pointer serves as a pointer to the human reader: look elsewhere.
+
 ### Writing better contracts
 
-We might feel queasy about handing out raw pointers like this, but it is actually more correct to do so than the abuse of smart pointers we'd earlier contemplated. We simply need to adjust our expectations about what raw pointers mean. In classical C++, a raw pointer communicated that you may or may not have to worry about ownership and lifetime. In modern C++, a raw pointer communicates that wherever you got the reference from has specified (or, transitively, inherited) a lifetime policy. Your class needs to be aware of how that policy's enforcement might impact your implementation, but it does not need to do any enforcement on its own. The raw pointer type somewhat sensibly points the human reader to look elsewhere to know the lifetime.
+We have cause to still be unhappy with this code. It's not that we have handed out a raw pointer, it's not even much about lifetimes because we have our contract written. What we have done is handed the `CPU` access to the `Memory` at any point in time. It can do whatever it wants, including modifying its internal state.
 
-But there are still some real problems we have in our code. It's not that we have handed out a raw pointer, it's not even about lifetimes because we have our contract written, it is that we have handed the CPU access to the memory at any point in time. If the CPU is running a separate thread, then we have synchronization issues between these objects. And even if there is no concurrency or parallelism to concern ourselves over, we are left with the inevitability of more and more methods using more and more functionality of the instances they reference. And, yes, we have allowed for programmer error to cause problems around the misuse of the object's lifeitme. Just to do a bit less typing, we have opened Pandora's box.
+The contract we have here is wide open: the lifetime is guaranteed for you, now do whatever you want. In the presence of threads, we have the possibility of synchronization issues. Even without concurrency or parallelism to concern ourselves over, we are left with the inevitability of more and more methods using more and more functionality of the instances they reference. And, yes, we have allowed for programmer error to cause problems around the misuse of the object's lifetime. And for what? Just to do a bit less typing, we have opened Pandora's box.
 
-So let's fix this. In one of our iterations, we played with the idea of giving the Memory a reference to the CPU. This might be needed to deliver an interrupt:
+So let's fix this. In one of our iterations, we played with the idea of giving the `Memory` a reference to the `CPU`. This might be needed to deliver an interrupt:
 
 ```cpp
 void Memory::page_fault()
@@ -252,7 +256,9 @@ void Emulator::run()
 }
 ```
 
-There are perhaps only a handful of methods of `Memory` that need the `CPU`. It is best to just pass them as needed. Since these methods assume that the CPU exists (is not null, is valid), we also use a non-nullable reference instead of a pointer:
+When we dismissed `std::shared_ptr<CPU>` as the type for `Memory`'s `m_cpu`, it was both because this introduced a circular reference and because the semantics--the idea that `Memory` owns the `CPU`--was wrong. We can fix both (and also obviate our original motiviation for considering shared pointers) by observing that we can simply pass the `CPU` to the methods that need it. This makes tight coupling harder on us and avoids dire programmer errors.
+
+Moreover, since these methods assume that the CPU exists (is not null, is valid), we can also use a non-nullable reference instead of a pointer:
 
 ```cpp
 void Memory::page_fault(CPU& cpu)
@@ -273,6 +279,6 @@ void Emulator::run()
 }
 ```
 
-This helps us reduce coupling while also satisfying some of our concerns about programmer error around the externally specified lifetime contract. The emulator is calling `page_fault` and passing in its CPU that it has created in the constructor and that, by the contract enforced with `std::unique_ptr<T>` (in the absence of a pointer assignment, `reset`, or `std::move`) will live until the emulator is destructed. Therefore, if `page_fault` does not start a thread that holds the `CPU` reference, the implicit contract around a synchronous function call resolves our worries about us screwing up the lifetimes: `CPU` is alive when we pass it to `page_fault`, therefore it's alive during `page_fault`'s execution.
+The emulator is calling `page_fault` and passing in its `CPU` that it has created in its constructor and that, by the contract enforced with `std::unique_ptr<T>` (in the absence of `reset` or `std::move`) will live until the emulator is destructed. Therefore, if `page_fault` does not start a thread that holds the `CPU` reference, the implicit contract around a synchronous function call resolves our worries about us screwing up the lifetimes: `CPU` is alive when we pass it to `page_fault`, therefore it's alive during `page_fault`'s execution.
 
-The exercise here is to write as much of the contract in one place as is possible. C++ doesn't have the tools of Rust to do static verification of lifetimes, so you need instead to expose the secret lifetimes of your objects in as clear and concise a manner as you can. When you are writing C++, this is your responsibility to the people that will use your software, and to your coworkers and your future self that will inherit your codebase. Use your powers wisely.
+The exercise is to understand lifetimes and ownership, so that we may write them out clearly and coherently. In our fictional emulator, ownership is entirely dictated by the top-level class, and all lifetimes are neatly dictated from there. Since C++ lacks Rust's tools for static verification of lifetimes, we need instead to expose the secret lifetimes of our objects through the simple concepts of unique ownership, "look elsewhere" raw pointers, and, if we really can't properly scope the lifetime up-front, shared ownership. When you are writing C++, this is your responsibility to the people that will use your software, and to your coworkers and your future self that will inherit your codebase. Use your powers wisely.
