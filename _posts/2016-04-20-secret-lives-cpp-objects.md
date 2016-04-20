@@ -52,10 +52,10 @@ class Emulator
 {
 public:
     Emulator()
-    : m_cpu(std::make_unique&Lt;CPU>())
-    , m_fpu(std::make_unique&lt;FPU>())
-    , m_gpu(std::make_unique&lt;GPU>())
-    , m_dma(std::make_unique&lt;Memory>())
+    : m_cpu(std::make_unique<CPU>())
+    , m_fpu(std::make_unique<FPU>())
+    , m_gpu(std::make_unique<GPU>())
+    , m_dma(std::make_unique<Memory>())
     { }
 
     // No need for ~Emulator() any more
@@ -66,10 +66,10 @@ public:
     }
 
 private:
-    std::unique_ptr&lt;CPU> m_cpu;
-    std::unique_ptr&lt;FPU> m_fpu;
-    std::unique_ptr&lt;GPU> m_gpu;
-    std::unique_ptr&lt;Memory> m_dma;
+    std::unique_ptr<CPU> m_cpu;
+    std::unique_ptr<FPU> m_fpu;
+    std::unique_ptr<GPU> m_gpu;
+    std::unique_ptr<Memory> m_dma;
 };
 ```
 
@@ -99,7 +99,7 @@ class CPU
 public:
     // ...
 private:
-    std::unique_ptr&lt;Memory> m_dma;
+    std::unique_ptr<Memory> m_dma;
 };
 ```
 
@@ -125,10 +125,10 @@ class Emulator
 {
 public:
     Emulator()
-    : m_cpu(std::make_shared&Lt;CPU>())
-    , m_fpu(std::make_shared&lt;FPU>())
-    , m_gpu(std::make_shared&lt;GPU>())
-    , m_dma(std::make_shared&lt;Memory>())
+    : m_cpu(std::make_shared<CPU>())
+    , m_fpu(std::make_shared<FPU>())
+    , m_gpu(std::make_shared<GPU>())
+    , m_dma(std::make_shared<Memory>())
     {
         // The CPU and Emulator can share ownership of m_dma
         m_cpu->memory(m_dma);
@@ -138,10 +138,10 @@ public:
     // ...
 
 private:
-    std::shared_ptr&lt;CPU> m_cpu;
-    std::shared_ptr&lt;FPU> m_fpu;
-    std::shared_ptr&lt;GPU> m_gpu;
-    std::shared_ptr&lt;Memory> m_dma;
+    std::shared_ptr<CPU> m_cpu;
+    std::shared_ptr<FPU> m_fpu;
+    std::shared_ptr<GPU> m_gpu;
+    std::shared_ptr<Memory> m_dma;
 };
 ```
 
@@ -151,7 +151,7 @@ I often find myself wishing that shared pointers didn't exist. They were added t
 class Memory
 {
 public:
-    Memory(const std::shared_ptr&lt;CPU>& cpu)
+    Memory(const std::shared_ptr<CPU>& cpu)
     : m_cpu(cpu)
     {
         // ...
@@ -159,7 +159,7 @@ public:
 
     // ...
 private:
-    std::shared_ptr&lt;CPU> m_cpu;
+    std::shared_ptr<CPU> m_cpu;
     // ...
 };
 
@@ -167,10 +167,10 @@ class Emulator
 {
 public:
     Emulator()
-    : m_cpu(std::make_shared&lt;CPU>())
-    , m_fpu(std::make_shared&lt;FPU>())
-    , m_gpu(std::make_shared&lt;GPU>())
-    , m_dma(std::make_shared&lt;Memory>(m_cpu))
+    : m_cpu(std::make_shared<CPU>())
+    , m_fpu(std::make_shared<FPU>())
+    , m_gpu(std::make_shared<GPU>())
+    , m_dma(std::make_shared<Memory>(m_cpu))
     {
         m_cpu->memory(m_dma);
     }
@@ -207,10 +207,10 @@ private:
 class Emulator
 {
 public:
-    : m_cpu(std::make_unique&Lt;CPU>())
-    , m_fpu(std::make_unique&lt;FPU>())
-    , m_gpu(std::make_unique&lt;GPU>())
-    , m_dma(std::make_unique&lt;Memory>())
+    : m_cpu(std::make_unique<CPU>())
+    , m_fpu(std::make_unique<FPU>())
+    , m_gpu(std::make_unique<GPU>())
+    , m_dma(std::make_unique<Memory>())
     {
         m_cpu->memory(m_dma.get());
     }
@@ -218,10 +218,10 @@ public:
     // ...
 
 private:
-    std::unique_ptr&lt;CPU> m_cpu;
-    std::unique_ptr&lt;FPU> m_fpu;
-    std::unique_ptr&lt;GPU> m_gpu;
-    std::unique_ptr&lt;Memory> m_dma;
+    std::unique_ptr<CPU> m_cpu;
+    std::unique_ptr<FPU> m_fpu;
+    std::unique_ptr<GPU> m_gpu;
+    std::unique_ptr<Memory> m_dma;
 };
 ```
 
