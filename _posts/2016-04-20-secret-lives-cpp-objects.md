@@ -45,7 +45,7 @@ private:
 };
 ```
 
-At one point in time, this is uncontroversial and just obviously how you do things. Today, it immediately fails code review as soon as the word `new` shows up. The prohibition here is not really against that particular keyword but against the fact that we have procedurally implemented a contract that we can declaratively enforce:
+At one point in time, this is uncontroversial and just obviously how you do things (save the memory leak; did you catch it?). Today, it immediately fails code review as soon as the word `new` shows up. The prohibition here is not really against that particular keyword but against the fact that we have procedurally implemented a contract that we can declaratively enforce:
 
 ```cpp
 class Emulator
