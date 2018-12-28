@@ -36,23 +36,21 @@ I am a software engineering generalist with over ten years experience as a hands
 
 ## Professional Experience
 
-**Software Engineering Manager at AppDynamics**<br>
-April 2014 - Present
+**Software Engineering Manager II at AppDynamics**<br>
+March 2014 - January 2019
 
-Lead and manager of the Python Agent, C++ SDK, and Web Server Agent teams. Started as Technical Lead for Python Agent, focused on creating a new Python agent product and building out the team. In July 2015, I was promoted to lead and manager of the C++ SDK and Web Server Agent teams. In January 2016, I was promoted to manager of the PHP Agent team.
+Hired as Technical Lead to found the Python agent. I've served as both an individual contributor and people manager through several stages of AppDynamics history: from a small startup into a unicorn; from an impending IPO to a purchase and the integration into Cisco.
 
-* Hire and manage teams for the [C++ SDK](http://www.appdynamics.com/cpp/) and [PHP](http://appdynamics.com/php/), [Python](http://appdynamics.com/python), and [Web Server](http://www.appdynamics.com/apache-web-server/) agents
-* Develop in Python, Java, C, and C++
-* Understand the deep internals of PHP and Python languages, various web servers, and native code libraries
-* Set and manage product roadmaps with customers and internal stakeholders
-* Build and release Python Agent GA eight months ahead of schedule
-* Convert all Python Agent beta customers to paying customers within one month of GA release
-* Improve processes for the C++ SDK and Web Server Agent teams
-* Assist in design and implementation of various projects throughout AppDynamics
-* Improve release automation
-* Build and manage [AppDynamics Chef cookbooks for customers](https://github.com/appdynamics/appdynamics-cookbooks)
-* Conduct outreach (conferences and customer meetings)
-* Work with team members to establish career development plans, improve team velocity, and build better products
+* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization.
+* Product lead for cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry.
+* Product lead for improved installation and onboarding experience, reducing onboarding friction from 70+ steps to under ten.
+* Setup engineering onboarding and training programs.
+* Onboard 70+ member internally-transferred engineering teams from Cisco.
+* Hire, train, lead, mentor, and manage geographically-distributed engineering teams.
+* Manage the full lifecycle for Python, PHP, Apache, C++, IBM Integration Bus, and Go monitoring products on multiple platforms.
+* Manage escalations including technical and non-technical customer calls and visits.
+* Represent AppDynamics at conferences in sessions and poster presentations.
+* As an individual contributor, wrote code in Python, C++, Go, Ruby, and Java.
 
 **Lead Platform Engineer at Kwarter**<br>
 March 2013 - March 2014
