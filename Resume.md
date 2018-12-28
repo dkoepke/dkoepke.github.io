@@ -87,7 +87,7 @@ Academic Technology at San Francisco State University has the mission of using t
 **Lead Full-stack Engineer at BSS Computing, San Francisco State University**<br>
 2003 - 2009
 
-BSS Computing at San Francisco State University was a small computing skunkworks unit. Originally founded to provide desktop and lab hardware support, I was brought in to add a software development function. Under my technical leadership, the unit researched and developed novel academic technology software (e.g., [DIVA](https://diva.sfsu.edu/)) and earned money for the university by taking on client work for other universities and research groups. I also performed UI/UX design functions.
+BSS Computing at San Francisco State University was a small computing skunkworks unit. Originally founded to provide desktop and lab hardware support, I was brought in to add a software development function. Under my technical leadership, the unit researched and developed novel academic technology software and earned money for the university by taking on client work for other universities and research groups. I also performed UI/UX design functions.
 
 **Computer Science Teaching Assistant at San Francisco State University**<br>
 2003 - 2004
