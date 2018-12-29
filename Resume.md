@@ -41,16 +41,16 @@ March 2014 - January 2019
 
 Hired as Technical Lead to found the Python agent. I've served as both an individual contributor and people manager through several stages of AppDynamics history: from a small startup into a unicorn; from an impending IPO to a purchase and the integration into Cisco.
 
-* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization.
-* Product lead for cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry.
-* Product lead for improved installation and onboarding experience, reducing onboarding friction from 70+ steps to under ten.
-* Setup engineering onboarding and training programs.
-* Onboard 70+ member internally-transferred engineering teams from Cisco.
-* Hire, train, lead, mentor, and manage geographically-distributed engineering teams.
-* Manage the full lifecycle for Python, PHP, Apache, C++, IBM Integration Bus, and Go monitoring products on multiple platforms.
-* Manage escalations including technical and non-technical customer calls and visits.
-* Represent AppDynamics at conferences in sessions and poster presentations.
-* As an individual contributor, wrote code in Python, C++, Go, Ruby, and Java.
+* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization
+* Product lead for cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry
+* Product lead for improved installation and onboarding experience, reducing onboarding friction from 70+ steps to under ten
+* Setup engineering onboarding and training programs
+* Onboard 70+ member internally-transferred engineering teams from Cisco
+* Hire, train, lead, mentor, and manage geographically-distributed engineering teams
+* Manage the full lifecycle for Python, PHP, Apache, C++, IBM Integration Bus, and Go monitoring products on multiple platforms
+* Manage escalations including technical and non-technical customer calls and visits
+* Represent AppDynamics at conferences in sessions and poster presentations
+* As an individual contributor, wrote code in Python, C++, Go, Ruby, and Java
 
 **Lead Platform Engineer at Kwarter**<br>
 March 2013 - March 2014
