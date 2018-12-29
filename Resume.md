@@ -7,12 +7,12 @@ description: Daniel A. Koepke is a software engineer with over 10 years of exper
 tags: [software, engineer, developer, programmer, devops, full stack, platform, backend, python, aws, nosql, ruby, c, c++, javascript, java, scalability, high availability, architecture, lean, agile, scrum, kanban, distributed computing, algorithms, cloud computing, manager, lead, apache, web server, apm, performance, monitoring, server, server-side]
 ---
 
-I am a software engineering generalist with over ten years experience as a hands-on engineering lead. As an engineer, I believe in writing good, clean, tested code. As a leader, I believe my role is to support the team by working alongside them, hiring good people, offering guidance and mentorship, and removing roadblocks.
+I am a software engineering generalist with over ten years experience as an engineering lead and people manager. As a leader, I believe my role is to support the team by identifying and filling gaps, hiring good people, offering guidance and mentorship, and removing roadblocks.
 
 ## Skill Highlights
 
 * Primary languages: C, C++ (including C++11 and C++14), Java, JavaScript, Python
-* Web frameworks and technologies including Django, DropWizard, Flask, Node.js, React, SASS
+* Web frameworks and technologies including Django, DropWizard, Flask, Node.js and Express, React.js, SASS
 * NoSQL and SQL data stores, caches, and queues including Cassandra, Couchbase, Kafka, Memcached, MonogDB, RabbitMQ, Redis
 * Configuration management with Ansible and Chef
 * Extensive experience with Amazon Web Services (AWS) including CloudFront, DynamoDB, EC2, ElastiCache, ELB, RDS, S3
@@ -27,12 +27,15 @@ I am a software engineering generalist with over ten years experience as a hands
 ## Philosophy
 
 * Clean, clear, and testable beats clever
-* Over-engineered code is often just as bad as under-thought code
+* Over-engineering is often worse than under-thinking
+* Be pragmatic, not dogmatic
+* What's right is more important than who's right
 * Automated testing and continuous integration are essential
 * No box is sacred: all infrastructure must be fast and trivial to reproduce, all mission critical stateful services must have failovers
 * Be as lean as possible: process by the team, for the team
 * Only own what you must, but never outsource the core business
 * Favor autonomous teams: avoid organizing by specialization, support cross-training, and align resources with business initiatives to faciltiate funding and create clear priorities
+* Avoid systems of control by creating a culture of ownership, responsibility, and mutual accountability
 
 ## Professional Experience
 
