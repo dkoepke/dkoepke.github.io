@@ -42,7 +42,7 @@ AppDynamics builds application performance monitoring and analytics for the ente
 
 **Lead Platform Engineer, Kwarter** (Mar 2013 - Mar 2014)
 
-Build a near-realtime PaaS for mobile social games related to live television broadcasts. Clients included Sony, AB InBev (Bud Light), Turner, and Dave & Busters.
+Kwarter built a near-realtime PaaS for multi-player mobile games related to live events. Clients included Sony, AB InBev (Bud Light), Turner, and Dave & Busters.
 
 * Develop PaaS in Python and JavaScript using AWS, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
 * Scale platform to support 125x more concurrent users in just 6 months
