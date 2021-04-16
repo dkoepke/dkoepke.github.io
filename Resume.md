@@ -27,7 +27,7 @@ I am a software engineering leader with extensive experience building and growin
 
 Since leaving AppDynamics, I have focused on entrepreneurship while consulting and investing.
 
-**Sr. Software Engineering Manager / AppDynamics** (Mar 2014 - Jan 2019)
+**Sr. Software Engineering Manager, AppDynamics** (Mar 2014 - Jan 2019)
 
 * Hire, train, lead, mentor, and manage remote-hybrid, highly productive, and happy engineering teams in US and India
 * Wrote the Python agent and took it to market while hiring the team
@@ -40,7 +40,7 @@ Since leaving AppDynamics, I have focused on entrepreneurship while consulting a
 * Represent AppDynamics at conferences and at university recruiting events
 * Write code in Python, C, C++, Go, Ruby, Java, Kotlin, and Groovy
 
-**Lead Platform Engineer at Kwarter** (Mar 2013 - Mar 2014)
+**Lead Platform Engineer, Kwarter** (Mar 2013 - Mar 2014)
 
 Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Lead Platform Engineer in October 2013.
 
@@ -55,9 +55,9 @@ Hired as one of four Platform Engineers building and maintaining a Platform as a
 * Design, document, and implement JavaScript/HTML5 SDK and demo application
 * Hire, organize, and provide leadership for senior engineering team
 
-**Engineering Manager and Full-Stack Engineer / Academic Technology** (2009 - 2013)
+**Engineering Manager, Academic Technology** (2009 - 2013)
 
-**Lead Full-stack Engineer / BSS Computing** (2003 - 2009)
+**Lead Full-stack Engineer, BSS Computing** (2003 - 2009)
 
 ## Educational Background
 
