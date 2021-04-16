@@ -29,12 +29,14 @@ Since leaving AppDynamics, I have focused on entrepreneurship while consulting a
 
 **Sr. Software Engineering Manager, AppDynamics** (Mar 2014 - Jan 2019)
 
+AppDynamics builds application performance monitoring and analytics for the enterprise.
+
 * Hire, train, lead, and manage highly productive and happy engineering teams in US and India
 * Manage the full software lifecycle for Python, PHP, Apache, C++ SDK, IBM Integration Bus, and Go monitoring products on multiple platforms
 * Manage and resolve high priority escalations from large enterprise customers
 * Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization
 * Manage cross-functional strategic initiative to improve cloud native support across all product lines
-* Setup engineering onboarding and training programs for growing 200+ engineer organization
+* Create new engineering onboarding and training programs for growing 200+ engineer organization
 * Represent AppDynamics at conferences and at university recruiting events
 * Write code in Python, C, C++, Go, Ruby, Java, Kotlin, and Groovy
 
