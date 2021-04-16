@@ -43,7 +43,7 @@ March 2014 - January 2019
 * Manage cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry
 * Setup engineering onboarding and training programs for growing 200+ engineer organization
 * Represent AppDynamics at conferences and at university recruiting events
-* Write code as needed in Python, C, C++, Go, Ruby, Java, Kotlin, and Groovy
+* Write code in Python, C, C++, Go, Ruby, Java, Kotlin, and Groovy
 
 **Lead Platform Engineer at Kwarter**<br>
 March 2013 - March 2014
