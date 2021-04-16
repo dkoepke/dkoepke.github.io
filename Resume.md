@@ -27,8 +27,6 @@ January 2019 - present
 
 Since leaving AppDynamics, I have focused on entrepreneurship while consulting and investing.
 
-* Technologies: TypeScript, Go, Rust, Elixir, and React.
-
 **Sr. Software Engineering Manager at AppDynamics**<br>
 March 2014 - January 2019
 
