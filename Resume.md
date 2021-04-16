@@ -44,7 +44,7 @@ Build a near-realtime PaaS for mobile social games related to live television br
 
 * Develop PaaS in Python and JavaScript using AWS, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
 * Scale platform to support 125x more concurrent users in just 6 months
-* Design and implement multi-tenancy, saving approximately $10K/mo. per customer in operations costs
+* Design and implement efficient multi-tenancy, saving over $1m+ per year in op-ex
 * Optimize monthly operation expenses through optimizatiton, caching, and negotiation with service providers
 * Design and build distributed load testing system for authentically simulating millions of concurrent users
 * Design and implement business intelligence system using Amazon Redshift
