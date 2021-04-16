@@ -48,7 +48,7 @@ March 2014 - January 2019
 **Lead Platform Engineer at Kwarter**<br>
 March 2013 - March 2014
 
-Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Team Lead in October 2013.
+Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Lead Platform Engineer in October 2013.
 
 * Environment: Develop web-based software in Python on Linux (Ubuntu) running on AWS using Pyramid, Chef, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
 * Design next generation Platform as a Service for realtime interactive content using Python on Flask, Ansible, and Dynamo
@@ -62,20 +62,8 @@ Hired as one of four Platform Engineers building and maintaining a Platform as a
 * Design, document, and implement JavaScript/HTML5 SDK and demo application
 * Hire, organize, and provide leadership for senior engineering team
 
-**Lead Full-Stack Engineer at Academic Technology**<br>
+**Engineering Manager and Full-Stack Engineer at Academic Technology**<br>
 January 2009 - March 2013
-
-Academic Technology has the mission of using technology to improve teaching, learning, and service for faculty, staff, and students at the 23 campus California State University system, and other higher education institutions. I was brought in to provide technical leadership for the existing Academic Technology team.
-
-* Technologies: PHP, Java, Python, Ruby, JavaScript, C, MySQL, PostgreSQL, Linux, Chef, Vagrant, Git
-* Lead team consisting of ten staff
-* Implement agile and devops processes
-* Update devops processes: SVN to Git, from manual setup to Chef, from shared dev environments to Vagrant
-* Improve mission critical systems uptime from 98% to 99.9%
-* Manage engineering budget
-* Collect requirements, conduct price negotiations, and write MOUs for client work
-* Coordinate projects across the 23 campus system
-* Assist in the migration of campus services to SSO via Shibboleth
 
 **Lead Full-stack Engineer at BSS Computing**<br>
 2003 - 2009
