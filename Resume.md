@@ -52,9 +52,9 @@ Hired as one of four Platform Engineers building and maintaining a Platform as a
 * Environment: Develop web-based software in JavaScript and Python running on AWS using Pyramid, Chef, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
 * Design next generation Platform as a Service for realtime interactive content using Python on Flask, Ansible, and DynamoDB
 * Scale platform from supporting ~12K concurrent users in May 2013 to millions of concurrent users and hundreds of thousands of RPS by October 2013
-* Design and implement multi-tenancy, saving approximately $10K/mo. per client in operations costs
-* Reduce monthly operations costs through optimization, caching, analyzing resources for over-provisioning, and re-negotiating with service providers
-* Design and build distributed load testing system for simulating millions of concurrent users
+* Design and implement multi-tenancy, saving approximately $10K/mo. per customer in operations costs
+* Optimize monthly operation expenses through optimizatiton, caching, and negotiation with service providers
+* Design and build distributed load testing system for authentically simulating millions of concurrent users
 * Design and implement business intelligence system
 * Work with team to improve development process, automation, and tooling
 * Design and implement features such as location-aware tournaments, mobile push notifications (using SNS), multi-language support for the admin interface
