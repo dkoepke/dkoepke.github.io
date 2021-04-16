@@ -11,11 +11,11 @@ I am a software engineering leader with extensive experience building and growin
 
 ## Skill Highlights
 
-* Extensive knowledge of agile, devops, organizational, and management practices
+* 20 years experience with agile, devops, organizational, and management practices
 * Strong written, verbal, and public speaking skills
-* Design and implement secure, scalable, distributed, and highly available systems
-* Languages: C, modern C++, Java, Go, JavaScript/TypeScript, Python
-* Web: DropWizard, Flask, Express, React, HTML5, CSS, Varnish, Nginx
+* Design and implementation of secure, scalable, distributed, and highly available systems
+* Languages: C, modern C++, Go, Java, JavaScript, Python, TypeScript
+* Web: DropWizard, Flask, Express, React, HTML5, CSS, Varnish, Nginx, REST, Protobuf, gRPC, GraphQL
 * Data: Cassandra, Kafka, Memcached, Redis, Postgres, MySQL
 * Ops: Chef/Ansible, Terraform, Docker, Git, GitHub, GitLab
 * AWS: DynamoDB, EC2, RDS, EFS, CloudFront, S3, Lambda
@@ -40,7 +40,7 @@ Since leaving AppDynamics, I have focused on entrepreneurship while consulting a
 
 **Lead Platform Engineer, Kwarter** (Mar 2013 - Mar 2014)
 
-Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Lead Platform Engineer in October 2013.
+Build a near-realtime PaaS for mobile social games related to live television broadcasts. Clients included Sony, AB InBev (Bud Light), Turner, and Dave & Busters.
 
 * Develop PaaS in Python and JavaScript using AWS, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
 * Scale platform to support 125x more concurrent users in just 6 months
