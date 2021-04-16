@@ -13,7 +13,7 @@ I am a software engineering leader with extensive experience building and growin
 
 * Extensive knowledge of agile, devops, organizational, and management practices
 * Strong written, verbal, and public speaking skills
-* Design and implementation of secure, scalable, distributed, and highly available systems
+* Design and implement secure, scalable, distributed, and highly available systems
 * Languages: C, modern C++, Java, Go, JavaScript/TypeScript, Python
 * Web: DropWizard, Flask, Express, React, HTML5, CSS, Varnish, Nginx
 * Data: Cassandra, Kafka, Memcached, Redis, Postgres, MySQL
@@ -30,9 +30,7 @@ Since leaving AppDynamics, I have focused on entrepreneurship while consulting a
 **Sr. Software Engineering Manager, AppDynamics** (Mar 2014 - Jan 2019)
 
 * Hire, train, lead, mentor, and manage remote-hybrid, highly productive, and happy engineering teams in US and India
-* Wrote the Python agent and took it to market while hiring the team
 * Manage the full software lifecycle for Python, PHP, Apache, C++ SDK, IBM Integration Bus, and Go monitoring products on multiple platforms
-* Combined portfolio ARR in the millions of dollars
 * Manage and resolve high priority escalations from large enterprise customers
 * Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization
 * Manage cross-functional strategic initiative to improve cloud native support across all product lines
