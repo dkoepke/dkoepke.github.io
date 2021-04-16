@@ -7,20 +7,17 @@ description: Daniel A. Koepke is a software engineering leader with extensive ex
 tags: [software, engineer, developer, programmer, devops, full stack, platform, backend, python, aws, nosql, ruby, c, c++, javascript, java, scalability, high availability, architecture, lean, agile, scrum, kanban, distributed computing, algorithms, cloud computing, manager, lead, apache, web server, apm, performance, monitoring, server, server-side]
 ---
 
-I am a software engineering leader with extensive experience building and growing successful products and teams.
+I am a software engineering leader with extensive experience building and growing successful products and teams at organizations of all sizes through multiple growth stages.
 
 ## Skill Highlights
 
-* Experience in leadership at small and large organizations through all stages
-* Comfortable managing on-site, remote, geo-distributed, and hybrid teams
 * Extensive knowledge of agile (Scrum, Kanban), devops, organizational, and management methodologies and theory
 * Strong written, verbal, and public speaking skills
-* Enterprise-grade security and compliance
+* Design and implementation of secure, scalable, distributed, and highly available systems
 * Languages: C, modern C++, Java, Go, JavaScript/TypeScript, Python
 * Web: DropWizard, Flask, Express, React, HTML5, CSS (SASS), Varnish, Nginx
 * Data: Cassandra, Kafka, Memcached, Redis, Postgres, MySQL
 * Ops/cloud: Chef/Ansible, Terraform, Docker, AWS (DynamoDB, EC2, RDS, EFS, CloudFront, S3, Lambda), Git, GitHub, GitLab
-* Design and implementation of scalable, distributed, and highly available systems
 * Automated testing, continuous integration, continuous delivery
 
 ## Experience
