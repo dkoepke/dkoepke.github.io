@@ -11,38 +11,36 @@ I am a software engineering leader with extensive experience building and growin
 
 ## Skill Highlights
 
-* Extensive knowledge of agile (Scrum, Kanban), devops, organizational, and management methodologies and theory
+* Extensive knowledge of agile, devops, organizational, and management practices
 * Strong written, verbal, and public speaking skills
 * Design and implementation of secure, scalable, distributed, and highly available systems
 * Languages: C, modern C++, Java, Go, JavaScript/TypeScript, Python
 * Web: DropWizard, Flask, Express, React, HTML5, CSS, Varnish, Nginx
 * Data: Cassandra, Kafka, Memcached, Redis, Postgres, MySQL
-* Ops/cloud: Chef/Ansible, Terraform, Docker, AWS (DynamoDB, EC2, RDS, EFS, CloudFront, S3, Lambda), Git, GitHub, GitLab
+* Ops: Chef/Ansible, Terraform, Docker, Git, GitHub, GitLab
+* AWS: DynamoDB, EC2, RDS, EFS, CloudFront, S3, Lambda
 * Automated testing, continuous integration, continuous delivery
 
 ## Experience
 
-**Self-Employed**<br>
-January 2019 - present
+**Self-Employed** (Jan 2019 - present)
 
 Since leaving AppDynamics, I have focused on entrepreneurship while consulting and investing.
 
-**Sr. Software Engineering Manager at AppDynamics**<br>
-March 2014 - January 2019
+**Sr. Software Engineering Manager / AppDynamics** (Mar 2014 - Jan 2019)
 
 * Hire, train, lead, mentor, and manage remote-hybrid, highly productive, and happy engineering teams in US and India
 * Wrote the Python agent and took it to market while hiring the team
 * Manage the full software lifecycle for Python, PHP, Apache, C++ SDK, IBM Integration Bus, and Go monitoring products on multiple platforms
 * Combined portfolio ARR in the millions of dollars
-* Personally manage escalations from enterprise customers and partners, including technical and non-technical calls and visits, repairing relationships, managing expectations, and resolving customer issues
-* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization, including training and leading on technical work
-* Manage cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry
+* Manage and resolve high priority escalations from large enterprise customers
+* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization
+* Manage cross-functional strategic initiative to improve cloud native support across all product lines
 * Setup engineering onboarding and training programs for growing 200+ engineer organization
 * Represent AppDynamics at conferences and at university recruiting events
 * Write code in Python, C, C++, Go, Ruby, Java, Kotlin, and Groovy
 
-**Lead Platform Engineer at Kwarter**<br>
-March 2013 - March 2014
+**Lead Platform Engineer at Kwarter** (Mar 2013 - Mar 2014)
 
 Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Lead Platform Engineer in October 2013.
 
@@ -57,11 +55,9 @@ Hired as one of four Platform Engineers building and maintaining a Platform as a
 * Design, document, and implement JavaScript/HTML5 SDK and demo application
 * Hire, organize, and provide leadership for senior engineering team
 
-**Engineering Manager and Full-Stack Engineer at Academic Technology**<br>
-January 2009 - March 2013
+**Engineering Manager and Full-Stack Engineer / Academic Technology** (2009 - 2013)
 
-**Lead Full-stack Engineer at BSS Computing**<br>
-2003 - 2009
+**Lead Full-stack Engineer / BSS Computing** (2003 - 2009)
 
 ## Educational Background
 
