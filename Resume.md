@@ -15,7 +15,7 @@ I am a software engineering leader with extensive experience building and growin
 * Strong written, verbal, and public speaking skills
 * Design and implementation of secure, scalable, distributed, and highly available systems
 * Languages: C, modern C++, Java, Go, JavaScript/TypeScript, Python
-* Web: DropWizard, Flask, Express, React, HTML5, CSS (SASS), Varnish, Nginx
+* Web: DropWizard, Flask, Express, React, HTML5, CSS, Varnish, Nginx
 * Data: Cassandra, Kafka, Memcached, Redis, Postgres, MySQL
 * Ops/cloud: Chef/Ansible, Terraform, Docker, AWS (DynamoDB, EC2, RDS, EFS, CloudFront, S3, Lambda), Git, GitHub, GitLab
 * Automated testing, continuous integration, continuous delivery
