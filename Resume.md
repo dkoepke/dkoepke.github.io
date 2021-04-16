@@ -49,8 +49,8 @@ March 2013 - March 2014
 
 Hired as one of four Platform Engineers building and maintaining a Platform as a Service for mobile social games related to live television broadcasts. Clients include Sony, AB InBev (Bud Light), Turner, and Dave & Busters. Promoted to Lead Platform Engineer in October 2013.
 
-* Environment: Develop web-based software in Python on Linux (Ubuntu) running on AWS using Pyramid, Chef, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
-* Design next generation Platform as a Service for realtime interactive content using Python on Flask, Ansible, and Dynamo
+* Environment: Develop web-based software in JavaScript and Python running on AWS using Pyramid, Chef, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
+* Design next generation Platform as a Service for realtime interactive content using Python on Flask, Ansible, and DynamoDB
 * Scale platform from supporting ~12K concurrent users in May 2013 to millions of concurrent users and hundreds of thousands of RPS by October 2013
 * Design and implement multi-tenancy, saving approximately $10K/mo. per client in operations costs
 * Reduce monthly operations costs through optimization, caching, analyzing resources for over-provisioning, and re-negotiating with service providers
