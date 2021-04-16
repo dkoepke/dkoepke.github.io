@@ -3,57 +3,47 @@ layout: page-resume
 permalink: /resume/index.html
 title: Résumé for Daniel A. Koepke
 tagline: I build great software that people love.
-description: Daniel A. Koepke is a software engineer with over 10 years of experience. This is his résumé.
+description: Daniel A. Koepke is a software engineering leader with extensive experience.
 tags: [software, engineer, developer, programmer, devops, full stack, platform, backend, python, aws, nosql, ruby, c, c++, javascript, java, scalability, high availability, architecture, lean, agile, scrum, kanban, distributed computing, algorithms, cloud computing, manager, lead, apache, web server, apm, performance, monitoring, server, server-side]
 ---
 
-I am a software engineering generalist with over ten years experience as an engineering lead and people manager. As a leader, I believe my role is to support the team by identifying and filling gaps, hiring good people, offering guidance and mentorship, and removing roadblocks.
+I am a software engineering leader with extensive experience building and growing successful products and teams.
 
 ## Skill Highlights
 
-* Primary languages: C, C++ (including C++11 and C++14), Java, JavaScript, Python
-* Web frameworks and technologies including Django, DropWizard, Flask, Node.js and Express, React.js, SASS
-* NoSQL and SQL data stores, caches, and queues including Cassandra, Couchbase, Kafka, Memcached, MonogDB, RabbitMQ, Redis
-* Configuration management with Ansible and Chef
-* Extensive experience with Amazon Web Services (AWS) including CloudFront, DynamoDB, EC2, ElastiCache, ELB, RDS, S3
-* Design and implementation of scalable, distributed, and highly availabile systems
-* Automated testing, continuous integration, continuous delivery
-* Experienced leader, mentor, and manager
-* Extensive experience implementing agile methodologies (Scrum and Kanban) and devops practices, including right-sizing processes for teams and continuous improvement of processes
-* Comfortable conducting client meetings and presenting at conferences
-* Strong written and verbal communication skills
-* Plays well with others
+* Experience in leadership at small and large organizations through all stages
+* Comfortable managing on-site, remote, geo-distributed, and hybrid teams
+* Extensive knowledge of agile (Scrum, Kanban), devops, organizational, and management methodologies and theory
+* Strong written, verbal, and public speaking skills
+* Enterprise-grade security and compliance
+* Primary technologies:
+  * C, modern C++, Java, JavaScript/TypeScript, Python
+  * DropWizard, Flask, Express, React, HTML5, CSS (SASS), Varnish, Nginx
+  * Cassandra, Kafka, Memcached, Redis, Postgres, MySQL
+  * Chef/Ansible, Terraform, Docker, AWS (DynamoDB, EC2, RDS, EFS, CloudFront, S3, Lambda), Git, GitHub, GitLab
+  * Design and implementation of scalable, distributed, and highly available systems
+  * Automated testing, continuous integration, continuous delivery
 
-## Philosophy
+## Experience
 
-* Clean, clear, and testable beats clever
-* Over-engineering is often worse than under-thinking
-* Be pragmatic, not dogmatic
-* What's right is more important than who's right
-* Automated testing and continuous integration are essential
-* No box is sacred: all infrastructure must be fast and trivial to reproduce, all mission critical stateful services must have failovers
-* Be as lean as possible: process by the team, for the team
-* Only own what you must, but never outsource the core business
-* Favor autonomous teams: avoid organizing by specialization, support cross-training, and align resources with business initiatives to faciltiate funding and create clear priorities
-* Avoid systems of control by creating a culture of ownership, responsibility, and mutual accountability
+**Self-Employed**<br>
+January 2019 - present
 
-## Professional Experience
+Since leaving AppDynamics, I have focused on entrepreneurship while consulting and investing.
 
-**Software Engineering Manager II at AppDynamics**<br>
+**Sr. Software Engineering Manager at AppDynamics**<br>
 March 2014 - January 2019
 
-Hired as Technical Lead to found the Python agent. I've served as both an individual contributor and people manager through several stages of AppDynamics history: from a small startup into a unicorn; from an impending IPO to a purchase and the integration into Cisco.
-
-* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization
-* Product lead for cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry
-* Product lead for improved installation and onboarding experience, reducing onboarding friction from 70+ steps to under ten
-* Setup engineering onboarding and training programs
-* Onboard 70+ member internally-transferred engineering teams from Cisco
-* Hire, train, lead, mentor, and manage geographically-distributed engineering teams
-* Manage the full lifecycle for Python, PHP, Apache, C++, IBM Integration Bus, and Go monitoring products on multiple platforms
-* Manage escalations including technical and non-technical customer calls and visits
-* Represent AppDynamics at conferences in sessions and poster presentations
-* As an individual contributor, wrote code in Python, C++, Go, Ruby, and Java
+* Hire, train, lead, mentor, and manage remote-hybrid, highly productive, and happy engineering teams in US and India
+* Wrote the Python agent and took it to market while hiring the team
+* Manage the full software lifecycle for Python, PHP, Apache, C++ SDK, IBM Integration Bus, and Go monitoring products on multiple platforms
+* Combined portfolio ARR in the millions of dollars
+* Personally manage escalations from enterprise customers and partners, including technical and non-technical calls and visits, repairing relationships, managing expectations, and resolving customer issues
+* Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization, including training and leading on technical work
+* Manage cross-functional strategic initiative to improve cloud native support across all product lines, including integrations with AWS, Azure, and CloudFoundry
+* Setup engineering onboarding and training programs for growing 200+ engineer organization
+* Represent AppDynamics at conferences and at university recruiting events
+* Write code as needed in Python, C, C++, Go, Ruby, Java, Kotlin, and Groovy
 
 **Lead Platform Engineer at Kwarter**<br>
 March 2013 - March 2014
@@ -72,10 +62,10 @@ Hired as one of four Platform Engineers building and maintaining a Platform as a
 * Design, document, and implement JavaScript/HTML5 SDK and demo application
 * Hire, organize, and provide leadership for senior engineering team
 
-**Lead Full-Stack Engineer at Academic Technology, San Francisco State University**<br>
+**Lead Full-Stack Engineer at Academic Technology**<br>
 January 2009 - March 2013
 
-Academic Technology at San Francisco State University has the mission of using technology to improve teaching, learning, and service for faculty, staff, and students at SF State, the 23 campus California State University system, and other higher education institutions. I was brought in to provide technical leadership for the existing Academic Technology team.
+Academic Technology has the mission of using technology to improve teaching, learning, and service for faculty, staff, and students at the 23 campus California State University system, and other higher education institutions. I was brought in to provide technical leadership for the existing Academic Technology team.
 
 * Technologies: PHP, Java, Python, Ruby, JavaScript, C, MySQL, PostgreSQL, Linux, Chef, Vagrant, Git
 * Lead team consisting of ten staff
@@ -87,15 +77,8 @@ Academic Technology at San Francisco State University has the mission of using t
 * Coordinate projects across the 23 campus system
 * Assist in the migration of campus services to SSO via Shibboleth
 
-**Lead Full-stack Engineer at BSS Computing, San Francisco State University**<br>
+**Lead Full-stack Engineer at BSS Computing**<br>
 2003 - 2009
-
-BSS Computing at San Francisco State University was a small computing skunkworks unit. Originally founded to provide desktop and lab hardware support, I was brought in to add a software development function. Under my technical leadership, the unit researched and developed novel academic technology software and earned money for the university by taking on client work for other universities and research groups. I also performed UI/UX design functions.
-
-**Computer Science Teaching Assistant at San Francisco State University**<br>
-2003 - 2004
-
-Served as a teaching assistant in courses on data structures, algorithms, and human-computer interaction. Gave lectures and tutorial sessions on topics including graph algorithms, complexity analysis, and requirements analysis.
 
 ## Educational Background
 
