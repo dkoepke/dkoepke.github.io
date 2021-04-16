@@ -29,7 +29,7 @@ Since leaving AppDynamics, I have focused on entrepreneurship while consulting a
 
 **Sr. Software Engineering Manager, AppDynamics** (Mar 2014 - Jan 2019)
 
-* Hire, train, lead, mentor, and manage remote-hybrid, highly productive, and happy engineering teams in US and India
+* Hire, train, lead, and manage highly productive and happy engineering teams in US and India
 * Manage the full software lifecycle for Python, PHP, Apache, C++ SDK, IBM Integration Bus, and Go monitoring products on multiple platforms
 * Manage and resolve high priority escalations from large enterprise customers
 * Lead for multiple company-wide work streams to implement agile development and release processes across 600 person product organization
