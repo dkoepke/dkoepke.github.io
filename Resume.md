@@ -42,16 +42,16 @@ AppDynamics builds application performance monitoring and analytics for the ente
 
 **Lead Platform Engineer, Kwarter** (Mar 2013 - Mar 2014)
 
-Kwarter built a near-realtime PaaS for multi-player mobile games related to live events. Clients included Sony, AB InBev (Bud Light), Turner, and Dave & Busters.
+Kwarter built a near-realtime PaaS for global multi-player mobile games related to live events. Clients included Sony, AB InBev (Bud Light), Turner, and Dave & Busters.
 
-* Develop PaaS in Python and JavaScript using AWS, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
-* Scale platform to support 125x more concurrent users in just 6 months
+* Develop PaaS and control panel in Python and JavaScript using AWS, Cassandra, MongoDB, Redis, CouchBase, RabbitMQ
+* Re-architect and optimize PaaS platform to support 125x more concurrent users in just 6 months
 * Design and implement efficient multi-tenancy, saving over $1m+ per year in op-ex
-* Optimize monthly operation expenses through optimizatiton, caching, and negotiation with service providers
+* Reduce monthly operation expenses through optimization, caching, and negotiation with service providers
 * Design and build distributed load testing system for authentically simulating millions of concurrent users
 * Design and implement business intelligence system using Amazon Redshift
 * Work with team to improve development process, automation, and tooling
-* Design and implement features such as location-aware tournaments, mobile push notifications (using SNS), multi-language support for the admin interface
+* Design and implement features such as location-aware tournaments, push notifications, internationalization
 * Design, document, and implement JavaScript/HTML5 SDK and demo application
 * Hire, organize, and provide leadership for senior engineering team
 
